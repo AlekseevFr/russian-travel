@@ -1,0 +1,20 @@
+.cover {
+  width: calc(100% - 96px);
+  margin: 0 auto;
+  margin-top: 92px;
+  position: relative;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    margin-top: 102px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}

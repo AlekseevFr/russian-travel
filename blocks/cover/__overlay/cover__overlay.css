@@ -1,0 +1,24 @@
+.cover__overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+}
+
+.cover__overlay:hover:before {
+  content: "";
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

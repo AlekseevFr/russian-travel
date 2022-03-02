@@ -1,0 +1,34 @@
+.photo-grid {
+  padding-top: 92px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
+  justify-content: center;
+  gap: 16px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 88px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 64px;
+    gap: 12px;
+  }
+}

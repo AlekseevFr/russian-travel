@@ -1,0 +1,18 @@
+.header__lang-box {
+  display: flex;
+  margin-right: 48px;
+  gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-box {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-box {
+    margin-right: 16px;
+    padding-bottom: 5px;
+  }
+}
