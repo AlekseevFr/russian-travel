@@ -17,28 +17,11 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 463fr 481fr;
-    grid-template-rows: repeat(2, minmax(35px, max-content));
     column-gap: 28px;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .place {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-    grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "paragraph";
-    column-gap: 50px;
-    row-gap: 32px;
-
-  }
-}
-
-@media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
