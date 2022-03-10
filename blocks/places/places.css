@@ -17,7 +17,7 @@
   .places {
     width: calc(100% - 48px);
     margin-top: 88px;
-    row-gap: 71px;
+    row-gap: 73px;
   }
 }
 
@@ -25,7 +25,7 @@
   .places {
     width: 100%;
     margin-top: 64px;
-    row-gap: 50px;
+    row-gap: 49px;
     margin-bottom: 66px;
   }
 }

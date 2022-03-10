@@ -4,7 +4,7 @@
 	font-size: 14px;
 	line-height: 16px;
 	text-align: left;
-	margin: 0px;
+	margin-top: 0;
 	margin-left: auto;
 }
 
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 320px) {
 	.footer__copyright {
-		line-height: 14px;
 		margin-left: 0px;
+		
 	}
 }

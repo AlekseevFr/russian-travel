@@ -12,19 +12,24 @@
 @media screen and (max-width: 1024px) {
   .place {
     column-gap: 32px;
+    grid-template-columns: 440fr 456fr;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   .place {
     column-gap: 28px;
+    row-gap: 47px;
+    grid-template-columns: 463fr 483fr;
   }
 }
+
 
 @media screen and (max-width: 520px) {
   .place {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+    grid-template-rows: 1fr;
     grid-template-areas:
       "title"
       "website"
