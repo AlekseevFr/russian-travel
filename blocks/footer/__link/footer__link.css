@@ -5,6 +5,9 @@
 	line-height: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+.footer__link:hover {
 	cursor: pointer;
 }
 

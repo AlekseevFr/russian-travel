@@ -6,5 +6,8 @@
   text-decoration-line: underline;
   margin: 0px;
   color: #FFFFFF;
+}
+
+.place__link:hover {
   cursor: pointer;
 }
