@@ -9,6 +9,8 @@
 
 .footer__link:hover {
 	cursor: pointer;
+	opacity: 0.5;
+	transition: 1s;
 }
 
 @media screen and (max-width: 695px) {

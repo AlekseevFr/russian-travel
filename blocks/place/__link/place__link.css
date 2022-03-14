@@ -10,4 +10,6 @@
 
 .place__link:hover {
   cursor: pointer;
+  opacity: 0.5;
+	transition: 1s;
 }
